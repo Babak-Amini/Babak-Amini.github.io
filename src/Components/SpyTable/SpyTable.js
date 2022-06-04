@@ -38,7 +38,7 @@ const SpyTable = (props) => {
                 setStock(data);
             }) //Add catch block with email to me and user about error
         }
-    }, [ticker])
+    }, [ticker])//
 
     //div needed to keep table width appropriate
     return <div className='spyTableContainer'>
