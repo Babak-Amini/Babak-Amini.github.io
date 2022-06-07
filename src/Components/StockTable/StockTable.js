@@ -108,12 +108,12 @@ const StockTable = (props) => {
                     <tr>
                         <td className='analytic'>Fwd Annual Dividend (Yield)</td>
                         <td className='value'>{stock.ForwardAnnualDividend} (
-                            {(stock.ForwardAnnualDividendYield*100).toFixed(2)}%)
+                            {(stock.ForwardAnnualDividendYield*100)}%)
                         </td>
                     </tr>
                     <tr>
                         <td className='analytic'>Dividend Payout Ratio</td>
-                        <td className='value'>{(stock.DividendPayoutRatio*100).toFixed(2)}%</td>
+                        <td className='value'>{(stock.DividendPayoutRatio*100)}%</td>
                     </tr>
                     <tr>
                         <td className='analytic'>Net Cash</td>
@@ -129,11 +129,11 @@ const StockTable = (props) => {
                     </tr>
                     <tr>
                         <td className='analytic'>Debt to Equity Ratio</td>
-                        <td className='value'>{stock.DebtToEquityRatio.toFixed(2)}</td>
+                        <td className='value'>{stock.DebtToEquityRatio}</td>
                     </tr>
                     <tr>
                         <td className='analytic'>Current Ratio</td>
-                        <td className='value'>{(stock.CurrentRatio).toFixed(2)}</td>
+                        <td className='value'>{(stock.CurrentRatio)}</td>
                     </tr>
                     <tr>
                         <td className='analytic'>ROA</td>
