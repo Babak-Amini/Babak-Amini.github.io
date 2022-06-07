@@ -3,7 +3,6 @@ import TopBar from './TopBar/TopBar';
 // import SearchBar from './SearchBar/SearchBar';
 import SpyTable from './SpyTable/SpyTable';
 import StockTable from './StockTable/StockTable';
-// import EarningsCall from './EarningsCall/EarningsCall';
 import './App.css';
 
 const App = () => {
